@@ -3,6 +3,7 @@
   "name": "startbootstrap-creative",
   "version": "4.0.0-beta.2",
   "script": {
+    "postinstall": "bower install && grunt build",
     "start": "node server.js"
   },
   "description": "Creative is a stylish one page HTML theme for Bootstrap.",
