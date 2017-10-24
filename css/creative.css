@@ -313,6 +313,8 @@ header.masthead {
 .call-to-action {
   padding: 50px 0; }
   .call-to-action h2 {
+    font-size: 22px;
+    font-weight: lighter;
     margin: 0 auto 20px; }
 
 .text-primary {
@@ -323,8 +325,8 @@ header.masthead {
   padding-left: 0; }
 
 .finger{
-  height: 70px;
-  width: 70px;
+  height: 45px;
+  width: 45px;
 }
 .wave{
   height: 32px;
