@@ -15,6 +15,8 @@
     <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
     <!-- parallax.js -->
     <script type="text/javascript" src="js/parallax.min.js"></script>
+
+    <script type="text/javascript" src="js/intro.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     
@@ -35,6 +37,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
+    <!-- <a class="up-arrow js-scroll-trigger" href="#page-top"> <img class="up-arrow-img" src="img/up.png" alt=""> </a> -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"> Hello <img class="wave" src="img/wave.png" alt=""> </a>
@@ -47,8 +50,8 @@
               <a class="nav-link js-scroll-trigger" href="#about">skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">experience</a>
-            </li>
+                <a class="nav-link js-scroll-trigger" href="#services">Interests</a>
+              </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">projects</a>
             </li>
@@ -60,69 +63,75 @@
       </div>
     </nav>
 
+
     <header id="hello" class="masthead">
       <div id="intro" class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Kausali Lama</h1>
+          <h1 id="homeHeading">KAUSALI LAMA</h1>
           <hr>
-          <p>FULL STACK DEVELOPER</p>
+          <p id= "kausali1"></p>
         </div>
       </div>
       <script src="js/particles.js"></script>
       <script src="js/app.js"></script>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary" id="about"id="services" data-image-src="img/header.jpg">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading text-black">SKILLS</h2>
             <hr>
-            <div class="skill"><p>HTML5</p></div>
+            <div class="skill-set">
+            <div class="skill"><p>HTML</p></div>
             <div class="skill"><p> CSS</p></div>
             <div class="skill"><p>JavaScript</p></div>
-            <div class="skill"><p>Python</p></div>
-            <div class="skill"><p>MySQL</p></div>
-            <div class="skill"><p>C#</p></div>
-            <div class="skill"><p>.NET</p></div>
+            <div class="skill"><p>React</p></div>
+            <div class="skill"><p>Redux</p></div>
+            <div class="skill"><p>RabbitMQ</p></div>
+            <div class="skill"><p>Jenkins</p></div>
+            <div class="skill"><p>ServiceStack</p></div>
             <div class="skill"><p>Node.js</p></div>
-            <div class="skill"><p>Angular</p></div>
-            <div class="skill"><p>Express</p></div>
-            <div class="skill"><p>MongoDB</p></div>
-            <div class="skill"><p>JQuery</p></div>
-           
-            
+            <div class="skill"><p>ES6</p></div>
+            <div class="skill"><p>MySQL</p></div>
+            <div class="skill"><p>MVC</p></div>
+            <div class="skill"><p>SOAP</p></div>
+            <div class="skill"><p>BizTalk</p></div>
+            <div class="skill"><p>C# .Net</p></div>
+            <div class="skill"><p>OOP</p></div>
+            <div class="skill"><p>Rest API</p></div>
+            <div class="skill"><p>SDLC</p></div>
+          </div>            
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services" class="parallax" data-parallax="scroll"  data-image-src="img/header.jpg">
+    <section id="services" class="parallax" data-parallax="scroll"  data-image-src="img/ocean.jpeg">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-white">Experience</h2>
+            <h2 class="section-heading text-white">Interests</h2>
             <hr class="primary">
           </div>
         </div>
       </div>
       <div class="wokexp">
-        <h5 class="section-heading">Coding Dojo, Seattle | April 2017 - August 2017</h5>
-        <p>Completed 14-week intensive course at Coding Dojo to gain insight on web fundamentals and three full technology stacks. Throughout my course I developed web applications using Python, Mean, C# ASP .NET Core MVC framework.</p>
-            
+          <h5 class="intTitle" ><img class="ui" src="img/code.png" alt=""> Front-End Web Developemt</h5>
+          <p class="white"> I am passionate about creating UI that not only looks pretty and organized but also is functional which adds value to users experience. Currenlty I am learning React-Redux which I think is powerful JavaScript Library for creating UI that allows developers to reuse components.  </p>
+      </div>
+      <div class="wokexp">
+          <h5 class="intTitle"><img class="research" src="img/icon.png" alt=""> Research - Learning New Languages </h5>
+          <p>I enjoy spending my time doing my research on new languages and learning those languages. React-Redux and Java are couple of languages that I self taught myself and I am still in the process of learning more about those languages.  </p>
+      </div>
+      <div class="wokexp" >
+        <h5 class="intTitle"> <img class="nature" src="img/mountain.png" alt="">Exploring Nature </h5>
+        <p class="white">Besides coding I love exploring places and being out in the nature. Some of the activities I enjoy the most are hiking, trekking, camping, kayaking and the list goes on and on. </p>
     </div>
+     
     <div class="wokexp">
-        <h5 class="white">C.H Robinson, Eden Prairie | July 2016 - April 2017</h5>
-        <p class="white">Shortly after my college graduation I was employed at C.H. Robinson, a global logistic company, as a Service Desk Analyst. As an Analyst, I Diagnosed security issues and affectively translated complex, technical concepts into easy to understand language to assist non-technically oriented customers. Here I Learned about business and the importance of IT to the business. I also got to work along with the Business Analysts and programmers which hugely inspired me to learn programming languages. </p>
-            
-    </div>
-    <div class="wokexp">
-        <h5 class="white">Minnesota State University, Moorhead | January 2012 - May 2016</h5>
-        <p class="white">While getting my drgree I was employed as IT Helpdesk Technician at MSUM. As Technician I monitored ticket system and provided second tier support for other peripheral equipment such as printers, scanners, and copiers. I also installed softwares on staff's computer as needed and provided assistance with hardware issues. </p>        
-    </div>
-    <div class="wokexp">
-        <h5 class="white">Minnesota State University, Moorhead (MSUM) | February 2012 - May 2016</h5>
-        <p class="white"> Completed Bachelors of Science in Health Services Administration from MSUM. Graduated with Mangna Cum Laude along with minor in Management and certification in Business Analytics.</p>
+        <h5 class="intTitle"><img class="video" src="img/video.png" alt=""> Videography</h5>
+        <p class="white">I enjoy watching and creating creative contents in the form of videos. Aerial videography is something I am passionate about and I am still in the process of learning and exploring more on this field. </p>  
     </div>
     </section>
 
@@ -140,89 +149,123 @@
             <div class="col-lg-4 col-md-6 text-center">
               <div class="service-box">
                 <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                <h3>Frameworks</h3>
-                <p class="text-muted">Most of my projects are created using the Model–view–controller (MVC) software architectural pattern</p>
+                <h4>Frameworks</h4>
+                <p class="text-muted">Most of my personal projects are created using the Model–View–Controller (MVC) software architectural pattern. I've also built APIs and Message Plugins using C# ServiceStack Framework and UIs using React library.</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
               <div class="service-box">
                 <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                <h3>Deployment</h3>
-                <p class="text-muted"> I have utilized EC2 Amazon Web Service, Microsoft Azure and Heroku cloud platform to deploy applications </p>
+                <h4>Deployment</h4>
+                <p class="text-muted"> I have utilized EC2 Amazon Web Service, Microsoft Azure and Heroku cloud platform to deploy my person applications. While at work, I've utilized Jenkins that triggers deployment in Octopus Deploy to deploy the code in real time.</p>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 text-center">
               <div class="service-box">
                 <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                <h3>Created with Love</h3>
-                <p class="text-muted">A Little love and passion is all you need to transform good ideas into great products </p>
+                <h4>Created with Love</h4>
+                <p class="text-muted">A Little love and passion is all you need to transform good ideas into great products and all my projects are created with love and passion for web development. </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <hr class="section-end"/>
 
+      <div class="new-project-list">
+          <p>New Project comming soon.. </p>
+        </div>
+      <section class="p-0" >
+          <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+              <div class="col-lg-12 col-sm-12">
+                <a class="portfolio-box" href="img/paint.jpeg">
+                  <img class="img-fluid" src="img/paint.jpeg" alt="">
+                  <div class="portfolio-box-caption">
+                    <div class="portfolio-box-caption-content">
+                      <div class="project-name">
+                        New React Project
+                      </div>
+                      <div class="project-category text-faded">
+                        Under construction 
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+              </section>s
+
+
+      <div class="project-list">
+        <p>Listed below are few of my old projects created using MVC framework: you can find repositories in my <a href="https://github.com/kausali" target="_blank">GibHub Account</a> </p>
+      </div>
     <section class="p-0" >
-      <div class="container-fluid">
-        <div class="row no-gutter popup-gallery">
-          
-          
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/project1.png">
-              <img class="img-fluid" src="img/portfolio/thumbnails/project1.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Message Wall
-                  </div>
-                  <div class="project-category text-faded">
-                    This application allows registered users to add messages on the wall, comment on messages and allows them to delete the message/comment they create. User can also view other user's profile. This project is created using HTML,CSS MySQL and Entity Framework in C# .NET.
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/project3.png">
-              <img class="img-fluid" src="img/portfolio/thumbnails/project3.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    2D Platform Game
-                  </div>
-                  <div class="project-category text-faded">
-                      I created this project by collaborating with my friend (Yu). This project was created in Unity using C#. We wanted to experiment with Unity and see how platform games are created. The character in the game runs, jumps and collects coins. Each coin is equivalent to certain points. When certain amounts of coins are collected level 2 will be unlocked. We have only worked on level 1 so far. 
+        <div class="container-fluid">
+          <div class="row no-gutter popup-gallery">
+            <div class="col-lg-12 col-sm-12">
+              <a class="portfolio-box" href="img/portfolio/fullsize/project1.png">
+                <img class="img-fluid" src="img/portfolio/thumbnails/project1.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Message Wall
+                    </div>
+                    <div class="project-category text-faded">
+                      This application allows registered users to add messages on the wall, comment on messages and allows them to delete the message/comment they create. User can also view other user's profile. This project is created using HTML,CSS MySQL and Entity Framework in C# .NET.
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="img/portfolio/fullsize/project2.png">
-              <img class="img-fluid" src="img/portfolio/thumbnails/project2.png" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-name">
-                    Trip Planner
-                  </div>
-                  <div class="project-category text-faded">
-                      This application that allows registered user to make travel plans. When user logs in, they will see the list of travel plan other users created. User can join the trip and also see the list of people who will be joining the trip. This application can be  used to make travel plans with friends and family. This project is created using HTML, CSS, Django and MySQL by following the MVC Framework. 
+              </a>
+            </div>
+            
+            <div class="col-lg-12 col-sm-12">
+              <a class="portfolio-box" href="img/portfolio/fullsize/project3.png">
+                <img class="img-fluid" src="img/portfolio/thumbnails/project3.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      2D Platform Game
+                    </div>
+                    <div class="project-category text-faded">
+                        This project was created in Unity using C#. I wanted to experiment with Unity and see how platform games are created. The character in the game runs, jumps and collects coins. Each coin is equivalent to certain points. When all the coins are collected level 2 will be unlocked.
+                    </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+            <div class="col-lg-12 col-sm-12">
+              <a class="portfolio-box" href="img/portfolio/fullsize/project2.png">
+                <img class="img-fluid" src="img/portfolio/thumbnails/project2.png" alt="">
+                <div class="portfolio-box-caption">
+                  <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                      Trip Planner
+                    </div>
+                    <div class="project-category text-faded">
+                        This application that allows registered user to make travel plans. When user logs in, they will see the list of travel plan other users created. User can join the trip and also see the list of people who will be joining the trip. This application can be  used to make travel plans with friends and family. This project is created using HTML, CSS, Django and MySQL by following the MVC Framework. 
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <div class="call-to-action bg-dark">
-      <div class="container text-center">
-        <h2>View My Resume</h2>
-        <a href="resume.pdf" target="_blank"><img class="finger" src="img/finger.png"></a>
-      </div>
-    </div>
+     <hr class="section-end"/>
+
+     <section id="resume">
+        <div class="call-to-action">
+          <div class="container text-center">
+            <h2>View My Resume</h2>
+            <hr/>
+            
+            <a href="resume.pdf" target="_blank"><link rel="icon" type="image/png" href="img/logo.png" /><img class="finger" src="img/finger.png"></a>
+          </div>
+        </div>
+        </section>
 
     <section id="contact">
       <div class="container">
@@ -230,7 +273,7 @@
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="primary">
-            <p>Want to say Hi? Give me a call or send me an email and we will get back to you as soon as possible!</p>
+            <p class="contact-text">Want to say Hi? Give me a call or send me an email and will get back to you as soon as possible!</p>
           </div>
         </div>
         <div class="row">
@@ -252,6 +295,7 @@
         </div>
       </div>
     </section>
+    <footer id="footer-text"> This portfolio is created using Node.JS and is hosted in Heroku</footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
