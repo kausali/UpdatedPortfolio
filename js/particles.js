@@ -81,8 +81,8 @@ var pJS = function(tag_id, params){
           bounce: false,
           attract: {
             enable: false,
-            rotateX: 3000,
-            rotateY: 3000
+            rotateX: 5000,
+            rotateY: 5000
           }
         },
         array: []
