@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+/*!
+ * Start Bootstrap - Grayscale v5.0.8 (https://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ */
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -12,7 +17,7 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #d6f1f0;
+  color: #64a19d;
   border: 1px solid #64a19d;
 }
 
@@ -129,7 +134,7 @@
   }
   .masthead h1 {
     font-size: 3.5rem;
-    line-height: 6.5rem;
+    line-height: 3.5rem;
     letter-spacing: 0.4rem;
   }
   .masthead h2 {
@@ -169,8 +174,8 @@
 .about-section {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #797878 0%, rgba(0, 0, 0, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#979797), color-stop(75%, rgba(0, 0, 0, 0.9)), to(rgba(8, 8, 8, 0.8)));
+  background: linear-gradient(to bottom, #979797 0%, rgba(0, 0, 0, 0.9) 75%, rgba(8, 8, 8, 0.8) 100%);
 }
 
 .about-section p {
@@ -178,7 +183,7 @@
 }
 
 .projects-section {
-  padding: 0rem 0;
+  padding: 3rem 0;
 }
 
 .projects-section .featured-text {
@@ -304,79 +309,70 @@ footer {
   padding: 5rem 0;
 }
 
-.about-me-section{
-  font-weight: lighter;
-  font-size: 0.8rem;
-  color: #efe9e9;
-}
-
-.about-me-section-H{
-
-  font-weight: lighter;
-  font-size: 1rem;
-  color: #9c9c9c;
-
-}
-
-
-.wokexp{
-  padding: 1rem;
-  margin: 5% auto ;
-  width: 83%;
-   background-color:rgba(92, 91, 91, 0.4);
-   border-radius: 20px;
-}
-.wokexp h4{
-font-size: 1.6rem;
-font-weight: lighter;
-color: #f0eeec;
-}
-
-.wokexp p{
-  font-weight: lighter;
-  color: #efe9e9;
-  font-size: 14px;
-  line-height: 1.5;
-  margin-bottom: 20px; 
-}
-
-
-section#interests{
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
-
-section#projects{
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-
-
-#intro{
+#intro {
   position: relative;
   left: 50%;
   top: 45%;
   width: 60%;
   margin-left: -30%;
   height: 130px;
-
   text-align: center;
- }
+}
 
- .arrowicons{
-   color: #64a19d;
- }
+.wokexp {
+  padding: 1rem;
+  margin: 5% auto;
+  width: 83%;
+  /* margin: 40px 30%; */
+  background-color: rgba(153, 151, 151, 0.4);
+  border-radius: 20px;
+}
 
+.wokexp h4 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: #ffffff;
+}
 
- .section-heading-secondary{
-   padding-top: 2rem;
-   padding-bottom: 2rem;
-   color: #f4f5f5;
- }
+section#interests {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
- .resume-fluid{
-   padding-top: 3rem;
-   padding-bottom: 2rem;
-   color:#ffffff;
- }
+section#projects {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.wokexp p {
+  font-weight: lighter;
+  color: #efe9e9;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.skillset span {
+  font-weight: lighter;
+  color: #efe9e9;
+  font-size: 0.8rem;
+}
+
+.skillset h1, .about-me-section-H {
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+span {
+  font-weight: lighter;
+  color: #efe9e9;
+  font-size: 0.8rem;
+}
+
+.arrowicons {
+  color: #64a19d;
+}
+
+.contact-info {
+  margin: 3.5rem auto;
+}

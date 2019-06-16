@@ -477,7 +477,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -8344,12 +8344,6 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
-}
-
-
-.mx-auto-fluid {
-  margin-right: 0 !important;
-  margin-left: 0 !important;
 }
 
 @media (min-width: 576px) {
