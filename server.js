@@ -1,6 +1,5 @@
 var express = require ('express');
 var app = express();
-// var bootstrap = require('bootstrap');
 
 var port = process.env.PORT || 5000;
 
