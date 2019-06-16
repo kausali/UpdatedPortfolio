@@ -3,9 +3,8 @@
     "name": "startbootstrap-grayscale",
     "version": "5.0.8",
     "scripts": {
-        "start": "node server.js"
+        "start": "node_modules/.bin/gulp watch"
     },
-   
     "description": "A grayscale one page HTML theme for Bootstrap.",
     "keywords": [
         "css",
@@ -33,6 +32,7 @@
         "@babel/runtime": "^7.4.5",
         "@fortawesome/fontawesome-free": "5.9.0",
         "bootstrap": "4.3.1",
+        "express": "^4.17.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
         "popper.js": "^1.15.0"
