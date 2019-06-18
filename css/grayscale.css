@@ -357,14 +357,20 @@ section#projects {
   font-size: 1rem;
 }
 
+.about-me-section-H1{
+  font-weight: lighter;
+  font-size: 1rem;
+  color: #f7f2f2;
+}
+
 .skillset{
   margin: 1rem auto;
 }
 
 span {
   font-weight: lighter;
-  color: #efe9e9;
-  font-size: 0.9rem;
+  color: #f7f2f2;
+  font-size: 0.85rem;
 }
 
 .arrowicons {
