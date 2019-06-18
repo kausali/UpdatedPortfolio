@@ -169,7 +169,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#979797), color-stop(75%, rgba(0, 0, 0, 0.9)), to(rgba(8, 8, 8, 0.8)));
-  background: linear-gradient(to bottom, #979797 0%, rgba(0, 0, 0, 0.9) 75%, rgba(8, 8, 8, 0.8) 100%);
+  background: linear-gradient(to bottom, #e2e2e2 0%, rgba(0, 0, 0, 0.9) 30%, rgba(8, 8, 8, 0.8) 100%);
 }
 
 .about-section p {
@@ -318,7 +318,7 @@ footer {
   margin: 5% auto;
   width: 83%;
   /* margin: 40px 30%; */
-  background-color: rgba(153, 151, 151, 0.4);
+  background-color: rgba(36, 35, 35, 0.4);
   border-radius: 20px;
 }
 
@@ -340,15 +340,15 @@ section#projects {
 
 .wokexp p {
   font-weight: lighter;
-  color: #efe9e9;
-  font-size: 14px;
+  color: #ffffff;
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 
 .skillset span {
   font-weight: lighter;
-  color: #efe9e9;
+  color: #f7f2f2;
   font-size: 0.8rem;
 }
 
@@ -357,10 +357,14 @@ section#projects {
   font-size: 1rem;
 }
 
+.skillset{
+  margin: 1rem auto;
+}
+
 span {
   font-weight: lighter;
   color: #efe9e9;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .arrowicons {

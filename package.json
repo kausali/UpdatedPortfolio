@@ -1,11 +1,11 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
+    "title": "portfolio",
+    "name": "Kausali-Portfolio",
     "version": "5.0.8",
     "scripts": {
         "start": "node server.js"
     },
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "1 page portfolio using Bootstrap",
     "keywords": [
         "css",
         "sass",
